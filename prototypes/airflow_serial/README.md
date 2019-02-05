@@ -30,3 +30,5 @@ Workflow:
     credentials, project_id = google.auth.default()
 
 
+Is it better to use the `GCP` `Operators` or the `GCP` `Hook`?
+
