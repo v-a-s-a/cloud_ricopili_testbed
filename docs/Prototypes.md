@@ -77,6 +77,6 @@ Mount a Google Cloud Bucket as a FUSE filesystem.
 
 How can we package this tool for distribution?  
 
-_Docker-ize Ricopili_: this allows us to run ricopili jobs within a standard container. External data resources may be an issue.  
-_GCP VMs_: Work with VM snapshots that have ricopili installed into them. Sharing VMs between projects may be an issue. A true "system" install of ricopili may be difficult.  
-_Installation recipe_: Have a `gcp.custom.txt` install file for a standard cloud VM. Install from `tar.gz` in a "headless" mode.  
+__Docker-ize Ricopili__: this allows us to run ricopili jobs within a standard container. External data resources may be an issue.  
+__GCP VMs__: Work with VM snapshots that have ricopili installed into them. Sharing VMs between projects may be an issue. A true "system" install of ricopili may be difficult.  
+__Installation recipe__: Have a `gcp.custom.txt` install file for a standard cloud VM. Install from `tar.gz` in a "headless" mode.  
