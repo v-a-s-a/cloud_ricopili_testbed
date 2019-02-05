@@ -20,6 +20,13 @@ Workflow:
 
 `conda install -c conda-forge airflow` 
 
+## GCP
 
+[GCP connection for airflow](https://airflow.apache.org/howto/manage-connections.html#google-cloud-platform).  
+[GCP authentication](https://google-auth.readthedocs.io/en/latest/reference/google.auth.html#google.auth.default):  
+
+    import google.auth
+    
+    credentials, project_id = google.auth.default()
 
 
