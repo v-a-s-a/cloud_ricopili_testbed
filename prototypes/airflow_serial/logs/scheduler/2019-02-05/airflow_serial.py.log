@@ -1,0 +1,4 @@
+[2019-02-05 18:45:04,751] {jobs.py:386} INFO - Started process (PID=5902) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-05 18:45:04,757] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-05 18:45:04,758] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-05 18:45:04,759] {logging_mixin.py:95} INFO - [2019-02-05 18:45:04,759] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py

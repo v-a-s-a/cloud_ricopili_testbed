@@ -1,0 +1,18 @@
+[2019-02-05 18:44:35,002] {models.py:1361} INFO - Dependencies all met for <TaskInstance: ricopili_serial.stop_vm 2015-06-06T00:00:00+00:00 [queued]>
+[2019-02-05 18:44:35,009] {models.py:1361} INFO - Dependencies all met for <TaskInstance: ricopili_serial.stop_vm 2015-06-06T00:00:00+00:00 [queued]>
+[2019-02-05 18:44:35,009] {models.py:1573} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2019-02-05 18:44:35,016] {models.py:1595} INFO - Executing <Task(GceInstanceStopOperator): stop_vm> on 2015-06-06T00:00:00+00:00
+[2019-02-05 18:44:35,016] {base_task_runner.py:118} INFO - Running: ['bash', '-c', 'airflow run ricopili_serial stop_vm 2015-06-06T00:00:00+00:00 --job_id 22 --raw -sd DAGS_FOLDER/airflow_serial.py --cfg_path /var/folders/7d/56pc9qp912l0kjvwnn2ds4sh0000gn/T/tmp3q97uz21']
+[2019-02-05 18:44:35,845] {base_task_runner.py:101} INFO - Job 22: Subtask stop_vm [2019-02-05 18:44:35,844] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-02-05 18:44:36,019] {base_task_runner.py:101} INFO - Job 22: Subtask stop_vm [2019-02-05 18:44:36,018] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-05 18:44:36,226] {base_task_runner.py:101} INFO - Job 22: Subtask stop_vm [2019-02-05 18:44:36,226] {cli.py:484} INFO - Running <TaskInstance: ricopili_serial.stop_vm 2015-06-06T00:00:00+00:00 [running]> on host Vassilys-MacBook-Pro.local
+[2019-02-05 18:44:36,243] {logging_mixin.py:95} INFO - [2019-02-05 18:44:36,243] {gcp_api_base_hook.py:84} INFO - Getting connection using `google.auth.default()` since no key file is defined for hook.
+[2019-02-05 18:44:36,244] {logging_mixin.py:95} INFO - [2019-02-05 18:44:36,244] {discovery.py:272} INFO - URL being requested: GET https://www.googleapis.com/discovery/v1/apis/compute/v1/rest
+[2019-02-05 18:44:36,601] {logging_mixin.py:95} INFO - [2019-02-05 18:44:36,601] {discovery.py:873} INFO - URL being requested: POST https://www.googleapis.com/compute/v1/projects/ripkelab2019/zones/us-east1-b/instances/airflow-serial-test/stop?alt=json
+[2019-02-05 18:44:37,356] {logging_mixin.py:95} INFO - [2019-02-05 18:44:37,356] {discovery.py:873} INFO - URL being requested: GET https://www.googleapis.com/compute/v1/projects/ripkelab2019/zones/us-east1-b/operations/operation-1549388676609-5812929b03552-d678d39f-47d56510?alt=json
+[2019-02-05 18:44:38,629] {logging_mixin.py:95} INFO - [2019-02-05 18:44:38,629] {discovery.py:873} INFO - URL being requested: GET https://www.googleapis.com/compute/v1/projects/ripkelab2019/zones/us-east1-b/operations/operation-1549388676609-5812929b03552-d678d39f-47d56510?alt=json
+[2019-02-05 18:44:39,999] {logging_mixin.py:95} INFO - [2019-02-05 18:44:39,998] {jobs.py:2627} INFO - Task exited with return code 0

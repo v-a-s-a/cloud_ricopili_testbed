@@ -1,0 +1,19 @@
+[2019-02-05 18:40:54,951] {models.py:1361} INFO - Dependencies all met for <TaskInstance: ricopili_serial.hang_out 2015-06-06T00:00:00+00:00 [queued]>
+[2019-02-05 18:40:54,955] {models.py:1361} INFO - Dependencies all met for <TaskInstance: ricopili_serial.hang_out 2015-06-06T00:00:00+00:00 [queued]>
+[2019-02-05 18:40:54,956] {models.py:1573} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 4
+--------------------------------------------------------------------------------
+
+[2019-02-05 18:40:54,962] {models.py:1595} INFO - Executing <Task(BashOperator): hang_out> on 2015-06-06T00:00:00+00:00
+[2019-02-05 18:40:54,962] {base_task_runner.py:118} INFO - Running: ['bash', '-c', 'airflow run ricopili_serial hang_out 2015-06-06T00:00:00+00:00 --job_id 15 --raw -sd DAGS_FOLDER/airflow_serial.py --cfg_path /var/folders/7d/56pc9qp912l0kjvwnn2ds4sh0000gn/T/tmpemenxc84']
+[2019-02-05 18:40:55,585] {base_task_runner.py:101} INFO - Job 15: Subtask hang_out [2019-02-05 18:40:55,585] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-02-05 18:40:55,728] {base_task_runner.py:101} INFO - Job 15: Subtask hang_out [2019-02-05 18:40:55,728] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-05 18:40:55,880] {base_task_runner.py:101} INFO - Job 15: Subtask hang_out [2019-02-05 18:40:55,879] {cli.py:484} INFO - Running <TaskInstance: ricopili_serial.hang_out 2015-06-06T00:00:00+00:00 [running]> on host Vassilys-MacBook-Pro.local
+[2019-02-05 18:40:55,896] {bash_operator.py:74} INFO - Tmp dir root location: 
+ /var/folders/7d/56pc9qp912l0kjvwnn2ds4sh0000gn/T
+[2019-02-05 18:40:55,897] {bash_operator.py:87} INFO - Temporary script location: /var/folders/7d/56pc9qp912l0kjvwnn2ds4sh0000gn/T/airflowtmp91mm8sx1/hang_outziy62yz_
+[2019-02-05 18:40:55,897] {bash_operator.py:97} INFO - Running command: sleep 120
+[2019-02-05 18:40:55,905] {bash_operator.py:106} INFO - Output:
+[2019-02-05 18:42:55,915] {bash_operator.py:114} INFO - Command exited with return code 0
+[2019-02-05 18:43:00,161] {logging_mixin.py:95} INFO - [2019-02-05 18:43:00,161] {jobs.py:2627} INFO - Task exited with return code 0
