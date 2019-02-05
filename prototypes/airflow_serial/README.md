@@ -24,7 +24,7 @@ Workflow:
   
  - Is it better to use the `GCP` `Operators` or the `GCP` `Hook`? _it looks like the operators use the hook underneath the hood._  
 
- -What is a good set if `IAM` roles for the workflow runner?
+ - What is a good set if `IAM` roles for the workflow runner?
 
 ## General notes
  
