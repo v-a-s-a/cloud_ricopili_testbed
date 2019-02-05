@@ -14,8 +14,26 @@ Options:
 
 Implementing a `preimp_dir --cloud ...` that utilizes more than one VM to complete tasks.
 
+Options:
+  1. Worflow management with `airflow` wrapping `slurm-gcp` or `elasticluster`.
+  2. Worflow management coded directly against the GCP API, with `slurm-gcp` or `elasticluster`.
+  3. Using [`dsub`](https://cloud.google.com/genomics/docs/tutorials/dsub) as a "custom" cluster backend for ricopili.
 
-## Tools
+
+### Target environments
+
+True portability may be a dream:
+
+  1. Broad UGER
+  2. LISA
+  3. BIH cluster
+  4. Local machines: macos, windows.
+
+We definitely need to be able to run this from LISA.
+
+## Cloud Tools
+
+There are various frameworks and tools that we can use to make our lives (hopefully) easier.
 
 ### Apache Airflow
 
@@ -53,3 +71,12 @@ Similar to the `gcp-slurm` project above, except much more flexible. They suppor
 [User-space file system backed by Gooogle Cloud Storage](https://github.com/GoogleCloudPlatform/gcsfuse). 
 
 Mount a Google Cloud Bucket as a FUSE filesystem.
+
+
+## Packaging
+
+How can we package this tool for distribution?  
+
+*Docker-ize Ricopili*: this allows us to run ricopili jobs within a standard container. External data resources may be an issue.  
+*GCP VMs*: Work with VM snapshots that have ricopili installed into them. Sharing VMs between projects may be an issue. A true "system" install of ricopili may be difficult.  
+*Installation recipe*: Have a `gcp.custom.txt` install file for a standard cloud VM. Install from `tar.gz` in a "headless" mode.  
