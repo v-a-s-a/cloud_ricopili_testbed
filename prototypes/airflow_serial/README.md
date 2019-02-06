@@ -1,4 +1,4 @@
-# GCP Ricopili serial + Airflow
+# GCP Ricopili --serial + Airflow
 
 The goal is to run `preimp_dir --cloud ...` implemented as an `airflow` DAG. We may consider developing as an airflow plugin, but we start with just a raw DAG.  
 
