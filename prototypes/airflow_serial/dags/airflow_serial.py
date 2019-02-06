@@ -10,16 +10,15 @@ default_args = {
     'owner': 'vasa',
     'depends_on_past': False,
     'start_date': datetime(2015, 6, 1),
-    'email': [''],
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,
-    'retry_delay': timedelta(minutes=5)
+    'retry_delay': timedelta(seconds=60)
 }
 
 dag = DAG('ricopili_serial',
     default_args=default_args,
-    schedule_interval=timedelta(days=1))
+    schedule_interval=None)
 
 
 # Cloud credentials: should be set in environment via `cloud sdk`
@@ -39,7 +38,7 @@ start_vm = GceInstanceStartOperator(
 
 hang_out = BashOperator(
     task_id='hang_out',
-    bash_command='sleep 120',
+    bash_command='sleep 60',
     retries=3,
     dag=dag)
 

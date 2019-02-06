@@ -1,0 +1,990 @@
+[2019-02-06 11:39:35,899] {jobs.py:386} INFO - Started process (PID=6244) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 11:39:35,903] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 11:39:35,905] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 11:39:35,906] {logging_mixin.py:95} INFO - [2019-02-06 11:39:35,905] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 11:39:36,100] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 11:39:36,122] {logging_mixin.py:95} INFO - [2019-02-06 11:39:36,121] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 11:39:36,123] {logging_mixin.py:95} INFO - [2019-02-06 11:39:36,122] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 10:34:36.122527+00:00
+[2019-02-06 11:39:36,129] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.230 seconds
+[2019-02-06 11:39:37,227] {jobs.py:386} INFO - Started process (PID=6245) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 11:39:37,231] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 11:39:37,233] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 11:39:37,234] {logging_mixin.py:95} INFO - [2019-02-06 11:39:37,234] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 11:39:37,439] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 11:39:37,459] {logging_mixin.py:95} INFO - [2019-02-06 11:39:37,459] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 11:39:37,461] {logging_mixin.py:95} INFO - [2019-02-06 11:39:37,460] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 10:34:37.460180+00:00
+[2019-02-06 11:39:37,466] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.239 seconds
+[2019-02-06 11:39:38,542] {jobs.py:386} INFO - Started process (PID=6246) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 11:39:38,547] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 11:39:38,548] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 11:39:38,549] {logging_mixin.py:95} INFO - [2019-02-06 11:39:38,549] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 11:39:38,752] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:30,976] {jobs.py:386} INFO - Started process (PID=6706) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:30,980] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:30,982] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:30,984] {logging_mixin.py:95} INFO - [2019-02-06 13:05:30,983] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:31,253] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:31,274] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:31,279] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:31,280] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:31,281] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:31,281] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:31,282] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:31,282] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:31,282] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:31,283] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:31,299] {logging_mixin.py:95} INFO - [2019-02-06 13:05:31,298] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:31,300] {logging_mixin.py:95} INFO - [2019-02-06 13:05:31,299] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:31.299615+00:00
+[2019-02-06 13:05:31,306] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.330 seconds
+[2019-02-06 13:05:32,404] {jobs.py:386} INFO - Started process (PID=6707) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:32,408] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:32,410] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:32,411] {logging_mixin.py:95} INFO - [2019-02-06 13:05:32,410] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:32,657] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:32,681] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:32,688] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:32,689] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:32,689] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:32,689] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:32,690] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:32,690] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:32,690] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:32,691] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:32,700] {logging_mixin.py:95} INFO - [2019-02-06 13:05:32,700] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:32,701] {logging_mixin.py:95} INFO - [2019-02-06 13:05:32,700] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:32.700912+00:00
+[2019-02-06 13:05:32,707] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.304 seconds
+[2019-02-06 13:05:33,839] {jobs.py:386} INFO - Started process (PID=6708) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:33,844] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:33,845] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:33,846] {logging_mixin.py:95} INFO - [2019-02-06 13:05:33,846] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:34,085] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:34,114] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:34,119] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:34,120] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:34,120] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:34,121] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:34,121] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:34,122] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:34,123] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:34,124] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:34,132] {logging_mixin.py:95} INFO - [2019-02-06 13:05:34,132] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:34,133] {logging_mixin.py:95} INFO - [2019-02-06 13:05:34,133] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:34.132996+00:00
+[2019-02-06 13:05:34,194] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.354 seconds
+[2019-02-06 13:05:35,271] {jobs.py:386} INFO - Started process (PID=6709) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:35,275] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:35,277] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:35,278] {logging_mixin.py:95} INFO - [2019-02-06 13:05:35,277] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:35,521] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:35,609] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:35,614] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:35,614] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:35,615] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:35,615] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:35,616] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:35,616] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:35,616] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:35,617] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:35,623] {logging_mixin.py:95} INFO - [2019-02-06 13:05:35,623] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:35,625] {logging_mixin.py:95} INFO - [2019-02-06 13:05:35,624] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:35.624282+00:00
+[2019-02-06 13:05:35,629] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.358 seconds
+[2019-02-06 13:05:36,714] {jobs.py:386} INFO - Started process (PID=6710) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:36,718] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:36,720] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:36,721] {logging_mixin.py:95} INFO - [2019-02-06 13:05:36,721] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:36,920] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:36,989] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:36,993] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:36,994] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:36,994] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:36,994] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:36,995] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:36,995] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:36,995] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:36,996] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:37,003] {logging_mixin.py:95} INFO - [2019-02-06 13:05:37,002] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:37,004] {logging_mixin.py:95} INFO - [2019-02-06 13:05:37,003] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:37.003648+00:00
+[2019-02-06 13:05:37,009] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.295 seconds
+[2019-02-06 13:05:38,176] {jobs.py:386} INFO - Started process (PID=6711) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:38,184] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:38,187] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:38,189] {logging_mixin.py:95} INFO - [2019-02-06 13:05:38,188] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:38,851] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:38,876] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:38,882] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:38,883] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:38,883] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:38,884] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:38,884] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:38,885] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:38,885] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:38,886] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:38,894] {logging_mixin.py:95} INFO - [2019-02-06 13:05:38,894] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:38,896] {logging_mixin.py:95} INFO - [2019-02-06 13:05:38,895] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:38.895391+00:00
+[2019-02-06 13:05:38,902] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.726 seconds
+[2019-02-06 13:05:40,020] {jobs.py:386} INFO - Started process (PID=6712) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:40,024] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:40,027] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:40,028] {logging_mixin.py:95} INFO - [2019-02-06 13:05:40,028] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:40,323] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:40,345] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:40,350] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:40,352] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:40,352] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:40,353] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:40,353] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:40,354] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:40,354] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:40,355] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:40,361] {logging_mixin.py:95} INFO - [2019-02-06 13:05:40,361] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:40,363] {logging_mixin.py:95} INFO - [2019-02-06 13:05:40,362] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:40.362269+00:00
+[2019-02-06 13:05:40,369] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.348 seconds
+[2019-02-06 13:05:41,457] {jobs.py:386} INFO - Started process (PID=6713) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:41,461] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:41,463] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:41,464] {logging_mixin.py:95} INFO - [2019-02-06 13:05:41,464] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:41,754] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:41,776] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:41,781] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:41,782] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:41,783] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:41,783] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:41,783] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:41,784] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:41,784] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:41,786] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:41,792] {logging_mixin.py:95} INFO - [2019-02-06 13:05:41,792] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:41,794] {logging_mixin.py:95} INFO - [2019-02-06 13:05:41,793] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:41.793600+00:00
+[2019-02-06 13:05:41,800] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.344 seconds
+[2019-02-06 13:05:42,892] {jobs.py:386} INFO - Started process (PID=6714) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:42,898] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:42,899] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:42,901] {logging_mixin.py:95} INFO - [2019-02-06 13:05:42,900] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:43,194] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:43,223] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:43,227] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:43,228] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:43,228] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:43,228] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:43,229] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:43,229] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:43,230] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:43,231] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:43,236] {logging_mixin.py:95} INFO - [2019-02-06 13:05:43,236] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:43,237] {logging_mixin.py:95} INFO - [2019-02-06 13:05:43,237] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:43.237171+00:00
+[2019-02-06 13:05:43,241] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.349 seconds
+[2019-02-06 13:05:44,344] {jobs.py:386} INFO - Started process (PID=6715) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:44,350] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:44,352] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:44,353] {logging_mixin.py:95} INFO - [2019-02-06 13:05:44,353] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:44,653] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:44,676] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:44,681] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:44,682] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:44,682] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:44,683] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:44,684] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:44,684] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:44,685] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:44,686] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:44,692] {logging_mixin.py:95} INFO - [2019-02-06 13:05:44,692] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:44,693] {logging_mixin.py:95} INFO - [2019-02-06 13:05:44,693] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:44.693134+00:00
+[2019-02-06 13:05:44,699] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.354 seconds
+[2019-02-06 13:05:45,799] {jobs.py:386} INFO - Started process (PID=6716) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:45,811] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:45,815] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:45,817] {logging_mixin.py:95} INFO - [2019-02-06 13:05:45,816] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:46,449] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:46,475] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:46,481] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:46,482] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:46,482] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:46,483] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:46,483] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:46,484] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:46,485] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:46,487] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:46,495] {logging_mixin.py:95} INFO - [2019-02-06 13:05:46,495] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:46,497] {logging_mixin.py:95} INFO - [2019-02-06 13:05:46,496] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:46.496181+00:00
+[2019-02-06 13:05:46,509] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.712 seconds
+[2019-02-06 13:05:47,620] {jobs.py:386} INFO - Started process (PID=6717) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:47,623] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:47,625] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:47,626] {logging_mixin.py:95} INFO - [2019-02-06 13:05:47,625] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:47,922] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:47,941] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:47,945] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:47,945] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:47,946] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:47,946] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:47,947] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:47,947] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:47,947] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:47,948] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:47,956] {logging_mixin.py:95} INFO - [2019-02-06 13:05:47,956] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:47,958] {logging_mixin.py:95} INFO - [2019-02-06 13:05:47,957] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:47.957386+00:00
+[2019-02-06 13:05:47,964] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.345 seconds
+[2019-02-06 13:05:49,061] {jobs.py:386} INFO - Started process (PID=6718) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:49,068] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:49,070] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:49,072] {logging_mixin.py:95} INFO - [2019-02-06 13:05:49,072] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:49,445] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:49,479] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:49,485] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:49,486] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:49,486] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:49,487] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:49,487] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:49,487] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:49,488] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:49,488] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:49,496] {logging_mixin.py:95} INFO - [2019-02-06 13:05:49,495] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:49,497] {logging_mixin.py:95} INFO - [2019-02-06 13:05:49,496] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:49.496499+00:00
+[2019-02-06 13:05:49,502] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.441 seconds
+[2019-02-06 13:05:50,604] {jobs.py:386} INFO - Started process (PID=6719) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:50,610] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:50,611] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:50,612] {logging_mixin.py:95} INFO - [2019-02-06 13:05:50,611] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:50,860] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:50,882] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:50,886] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:50,887] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:50,887] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:50,887] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:50,888] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:50,888] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:50,888] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:50,889] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:50,898] {logging_mixin.py:95} INFO - [2019-02-06 13:05:50,898] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:50,899] {logging_mixin.py:95} INFO - [2019-02-06 13:05:50,898] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:50.898807+00:00
+[2019-02-06 13:05:50,904] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.300 seconds
+[2019-02-06 13:05:52,043] {jobs.py:386} INFO - Started process (PID=6720) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:52,047] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:52,049] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:52,050] {logging_mixin.py:95} INFO - [2019-02-06 13:05:52,050] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:52,302] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:52,320] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:52,324] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:52,325] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:52,325] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:52,326] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:52,326] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:52,326] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:52,327] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:52,327] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:52,333] {logging_mixin.py:95} INFO - [2019-02-06 13:05:52,333] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:52,334] {logging_mixin.py:95} INFO - [2019-02-06 13:05:52,333] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:52.333914+00:00
+[2019-02-06 13:05:52,339] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.296 seconds
+[2019-02-06 13:05:53,479] {jobs.py:386} INFO - Started process (PID=6721) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:53,484] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:53,486] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:53,487] {logging_mixin.py:95} INFO - [2019-02-06 13:05:53,486] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:53,748] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:53,766] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:53,772] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:53,773] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:53,773] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:53,774] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:53,774] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:53,775] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:53,775] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:53,776] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:53,780] {logging_mixin.py:95} INFO - [2019-02-06 13:05:53,780] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:53,781] {logging_mixin.py:95} INFO - [2019-02-06 13:05:53,781] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:53.781250+00:00
+[2019-02-06 13:05:53,786] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.307 seconds
+[2019-02-06 13:05:54,923] {jobs.py:386} INFO - Started process (PID=6722) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:54,927] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:54,928] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:54,929] {logging_mixin.py:95} INFO - [2019-02-06 13:05:54,929] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:55,148] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:55,164] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:55,168] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:55,168] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:55,169] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:55,169] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:55,169] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:55,169] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:55,170] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:55,170] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:55,175] {logging_mixin.py:95} INFO - [2019-02-06 13:05:55,174] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:55,176] {logging_mixin.py:95} INFO - [2019-02-06 13:05:55,175] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:55.175674+00:00
+[2019-02-06 13:05:55,180] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.256 seconds
+[2019-02-06 13:05:56,272] {jobs.py:386} INFO - Started process (PID=6723) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:56,277] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:56,279] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:56,280] {logging_mixin.py:95} INFO - [2019-02-06 13:05:56,279] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:56,567] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:56,590] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:56,594] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:56,595] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:56,596] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:56,596] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:56,596] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:56,597] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:56,597] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:56,598] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:56,605] {logging_mixin.py:95} INFO - [2019-02-06 13:05:56,605] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:56,606] {logging_mixin.py:95} INFO - [2019-02-06 13:05:56,606] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:56.606119+00:00
+[2019-02-06 13:05:56,611] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.339 seconds
+[2019-02-06 13:05:57,711] {jobs.py:386} INFO - Started process (PID=6724) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:57,715] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:57,717] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:57,718] {logging_mixin.py:95} INFO - [2019-02-06 13:05:57,717] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:57,967] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:57,987] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:57,991] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:57,992] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:57,992] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:57,993] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:57,993] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:57,993] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:57,994] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:57,995] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:58,000] {logging_mixin.py:95} INFO - [2019-02-06 13:05:58,000] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:58,001] {logging_mixin.py:95} INFO - [2019-02-06 13:05:58,001] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:58.001197+00:00
+[2019-02-06 13:05:58,006] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.295 seconds
+[2019-02-06 13:05:59,148] {jobs.py:386} INFO - Started process (PID=6725) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:59,153] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:05:59,155] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:05:59,156] {logging_mixin.py:95} INFO - [2019-02-06 13:05:59,156] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:59,403] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:05:59,420] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:05:59,424] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:59,425] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:59,426] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:59,426] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:59,426] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:59,427] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:59,427] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:05:59,428] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:05:59,434] {logging_mixin.py:95} INFO - [2019-02-06 13:05:59,433] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:05:59,435] {logging_mixin.py:95} INFO - [2019-02-06 13:05:59,434] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:00:59.434477+00:00
+[2019-02-06 13:05:59,440] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.292 seconds
+[2019-02-06 13:06:00,484] {jobs.py:386} INFO - Started process (PID=6726) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:00,488] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:00,489] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:00,490] {logging_mixin.py:95} INFO - [2019-02-06 13:06:00,490] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:00,735] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:00,754] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:00,758] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:00,759] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:00,759] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:00,759] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:00,760] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:00,760] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:00,760] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:00,761] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:00,767] {logging_mixin.py:95} INFO - [2019-02-06 13:06:00,766] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:00,768] {logging_mixin.py:95} INFO - [2019-02-06 13:06:00,767] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:00.767459+00:00
+[2019-02-06 13:06:00,773] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.290 seconds
+[2019-02-06 13:06:01,827] {jobs.py:386} INFO - Started process (PID=6727) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:01,831] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:01,833] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:01,834] {logging_mixin.py:95} INFO - [2019-02-06 13:06:01,833] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:02,079] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:02,097] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:02,101] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:02,102] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:02,102] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:02,102] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:02,103] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:02,103] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:02,103] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:02,104] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:02,110] {logging_mixin.py:95} INFO - [2019-02-06 13:06:02,109] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:02,111] {logging_mixin.py:95} INFO - [2019-02-06 13:06:02,110] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:02.110665+00:00
+[2019-02-06 13:06:02,116] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.289 seconds
+[2019-02-06 13:06:03,159] {jobs.py:386} INFO - Started process (PID=6728) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:03,164] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:03,165] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:03,167] {logging_mixin.py:95} INFO - [2019-02-06 13:06:03,166] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:03,458] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:03,486] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:03,491] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:03,492] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:03,492] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:03,492] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:03,493] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:03,493] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:03,494] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:03,494] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:03,501] {logging_mixin.py:95} INFO - [2019-02-06 13:06:03,500] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:03,502] {logging_mixin.py:95} INFO - [2019-02-06 13:06:03,501] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:03.501688+00:00
+[2019-02-06 13:06:03,507] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.348 seconds
+[2019-02-06 13:06:04,593] {jobs.py:386} INFO - Started process (PID=6729) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:04,597] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:04,599] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:04,600] {logging_mixin.py:95} INFO - [2019-02-06 13:06:04,600] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:04,918] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:04,941] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:04,946] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:04,947] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:04,948] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:04,948] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:04,949] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:04,950] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:04,951] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:04,952] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:04,958] {logging_mixin.py:95} INFO - [2019-02-06 13:06:04,957] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:04,959] {logging_mixin.py:95} INFO - [2019-02-06 13:06:04,958] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:04.958867+00:00
+[2019-02-06 13:06:04,966] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.373 seconds
+[2019-02-06 13:06:06,026] {jobs.py:386} INFO - Started process (PID=6731) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:06,032] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:06,034] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:06,035] {logging_mixin.py:95} INFO - [2019-02-06 13:06:06,035] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:06,329] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:06,352] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:06,356] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:06,356] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:06,357] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:06,357] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:06,357] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:06,358] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:06,359] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:06,359] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:06,367] {logging_mixin.py:95} INFO - [2019-02-06 13:06:06,366] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:06,368] {logging_mixin.py:95} INFO - [2019-02-06 13:06:06,368] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:06.368084+00:00
+[2019-02-06 13:06:06,373] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.347 seconds
+[2019-02-06 13:06:07,470] {jobs.py:386} INFO - Started process (PID=6732) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:07,475] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:07,477] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:07,478] {logging_mixin.py:95} INFO - [2019-02-06 13:06:07,478] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:07,779] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:07,801] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:07,805] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:07,806] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:07,806] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:07,807] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:07,807] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:07,808] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:07,808] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:07,809] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:07,815] {logging_mixin.py:95} INFO - [2019-02-06 13:06:07,815] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:07,817] {logging_mixin.py:95} INFO - [2019-02-06 13:06:07,816] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:07.816385+00:00
+[2019-02-06 13:06:07,822] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.351 seconds
+[2019-02-06 13:06:08,906] {jobs.py:386} INFO - Started process (PID=6733) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:08,910] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:08,911] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:08,913] {logging_mixin.py:95} INFO - [2019-02-06 13:06:08,912] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:09,183] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:09,206] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:09,211] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:09,212] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:09,212] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:09,213] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:09,214] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:09,214] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:09,215] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:09,216] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:09,223] {logging_mixin.py:95} INFO - [2019-02-06 13:06:09,223] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:09,225] {logging_mixin.py:95} INFO - [2019-02-06 13:06:09,224] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:09.224289+00:00
+[2019-02-06 13:06:09,230] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.324 seconds
+[2019-02-06 13:06:10,350] {jobs.py:386} INFO - Started process (PID=6734) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:10,356] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:10,357] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:10,358] {logging_mixin.py:95} INFO - [2019-02-06 13:06:10,358] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:10,650] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:10,672] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:10,676] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:10,677] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:10,677] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:10,678] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:10,678] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:10,679] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:10,679] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:10,681] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:10,688] {logging_mixin.py:95} INFO - [2019-02-06 13:06:10,687] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:10,689] {logging_mixin.py:95} INFO - [2019-02-06 13:06:10,688] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:10.688747+00:00
+[2019-02-06 13:06:10,694] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.344 seconds
+[2019-02-06 13:06:11,787] {jobs.py:386} INFO - Started process (PID=6735) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:11,791] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:11,793] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:11,794] {logging_mixin.py:95} INFO - [2019-02-06 13:06:11,793] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:12,075] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:12,093] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:12,098] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:12,099] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:12,100] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:12,100] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:12,100] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:12,101] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:12,101] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:12,102] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:12,107] {logging_mixin.py:95} INFO - [2019-02-06 13:06:12,107] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:12,108] {logging_mixin.py:95} INFO - [2019-02-06 13:06:12,108] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:12.108193+00:00
+[2019-02-06 13:06:12,113] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.326 seconds
+[2019-02-06 13:06:13,232] {jobs.py:386} INFO - Started process (PID=6736) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:13,238] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:13,240] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:13,241] {logging_mixin.py:95} INFO - [2019-02-06 13:06:13,241] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:13,550] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:13,567] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:13,570] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:13,571] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:13,571] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:13,572] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:13,572] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:13,573] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:13,573] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:13,574] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:13,579] {logging_mixin.py:95} INFO - [2019-02-06 13:06:13,579] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:13,580] {logging_mixin.py:95} INFO - [2019-02-06 13:06:13,579] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:13.579758+00:00
+[2019-02-06 13:06:13,585] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.352 seconds
+[2019-02-06 13:06:14,664] {jobs.py:386} INFO - Started process (PID=6737) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:14,670] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:14,671] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:14,672] {logging_mixin.py:95} INFO - [2019-02-06 13:06:14,672] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:14,977] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:15,000] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:15,005] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:15,006] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:15,006] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:15,007] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:15,007] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:15,007] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:15,008] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:15,008] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:15,015] {logging_mixin.py:95} INFO - [2019-02-06 13:06:15,015] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:15,016] {logging_mixin.py:95} INFO - [2019-02-06 13:06:15,016] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:15.016053+00:00
+[2019-02-06 13:06:15,021] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.358 seconds
+[2019-02-06 13:06:16,101] {jobs.py:386} INFO - Started process (PID=6738) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:16,107] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:16,109] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:16,110] {logging_mixin.py:95} INFO - [2019-02-06 13:06:16,109] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:16,399] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:16,419] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:16,423] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:16,424] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:16,424] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:16,425] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:16,425] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:16,425] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:16,426] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:16,426] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:16,432] {logging_mixin.py:95} INFO - [2019-02-06 13:06:16,431] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:16,433] {logging_mixin.py:95} INFO - [2019-02-06 13:06:16,432] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:16.432638+00:00
+[2019-02-06 13:06:16,437] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.336 seconds
+[2019-02-06 13:06:17,540] {jobs.py:386} INFO - Started process (PID=6739) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:17,544] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:17,545] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:17,547] {logging_mixin.py:95} INFO - [2019-02-06 13:06:17,546] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:17,894] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:17,928] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:17,938] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:17,940] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:17,940] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:17,941] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:17,942] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:17,943] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:17,943] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:17,945] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:17,953] {logging_mixin.py:95} INFO - [2019-02-06 13:06:17,953] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:17,955] {logging_mixin.py:95} INFO - [2019-02-06 13:06:17,954] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:17.954638+00:00
+[2019-02-06 13:06:17,961] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.422 seconds
+[2019-02-06 13:06:19,098] {jobs.py:386} INFO - Started process (PID=6740) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:19,104] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:19,105] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:19,107] {logging_mixin.py:95} INFO - [2019-02-06 13:06:19,106] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:19,449] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:19,470] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:19,476] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:19,477] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:19,477] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:19,478] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:19,478] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:19,480] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:19,481] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:19,482] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:19,489] {logging_mixin.py:95} INFO - [2019-02-06 13:06:19,489] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:19,490] {logging_mixin.py:95} INFO - [2019-02-06 13:06:19,490] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:19.490270+00:00
+[2019-02-06 13:06:19,500] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.403 seconds
+[2019-02-06 13:06:20,633] {jobs.py:386} INFO - Started process (PID=6741) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:20,640] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:20,642] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:20,643] {logging_mixin.py:95} INFO - [2019-02-06 13:06:20,643] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:20,906] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:20,937] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:20,946] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:20,948] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:20,948] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:20,949] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:20,949] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:20,950] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:20,950] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:20,952] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:20,964] {logging_mixin.py:95} INFO - [2019-02-06 13:06:20,964] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:20,967] {logging_mixin.py:95} INFO - [2019-02-06 13:06:20,965] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:20.965927+00:00
+[2019-02-06 13:06:20,974] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.341 seconds
+[2019-02-06 13:06:22,071] {jobs.py:386} INFO - Started process (PID=6742) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:22,076] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:22,077] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:22,078] {logging_mixin.py:95} INFO - [2019-02-06 13:06:22,078] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:22,343] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:22,363] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:22,367] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:22,368] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:22,368] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:22,368] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:22,369] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:22,369] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:22,369] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:22,370] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:22,378] {logging_mixin.py:95} INFO - [2019-02-06 13:06:22,377] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:22,380] {logging_mixin.py:95} INFO - [2019-02-06 13:06:22,379] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:22.379095+00:00
+[2019-02-06 13:06:22,387] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.317 seconds
+[2019-02-06 13:06:23,497] {jobs.py:386} INFO - Started process (PID=6743) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:23,501] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:23,503] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:23,504] {logging_mixin.py:95} INFO - [2019-02-06 13:06:23,504] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:23,749] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:23,770] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:23,774] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:23,775] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:23,775] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:23,776] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:23,776] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:23,776] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:23,777] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:23,777] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:23,784] {logging_mixin.py:95} INFO - [2019-02-06 13:06:23,783] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:23,785] {logging_mixin.py:95} INFO - [2019-02-06 13:06:23,784] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:23.784487+00:00
+[2019-02-06 13:06:23,790] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.293 seconds
+[2019-02-06 13:06:24,843] {jobs.py:386} INFO - Started process (PID=6744) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:24,848] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:24,849] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:24,850] {logging_mixin.py:95} INFO - [2019-02-06 13:06:24,850] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:25,122] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:25,144] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:25,150] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:25,151] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:25,151] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:25,151] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:25,152] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:25,152] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:25,152] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:25,153] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:25,160] {logging_mixin.py:95} INFO - [2019-02-06 13:06:25,159] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:25,161] {logging_mixin.py:95} INFO - [2019-02-06 13:06:25,160] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:25.160741+00:00
+[2019-02-06 13:06:25,167] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.324 seconds
+[2019-02-06 13:06:26,289] {jobs.py:386} INFO - Started process (PID=6745) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:26,296] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:26,298] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:26,299] {logging_mixin.py:95} INFO - [2019-02-06 13:06:26,299] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:26,543] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:26,604] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:26,613] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:26,614] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:26,615] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:26,616] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:26,617] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:26,618] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:26,618] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:26,619] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:26,627] {logging_mixin.py:95} INFO - [2019-02-06 13:06:26,626] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:26,628] {logging_mixin.py:95} INFO - [2019-02-06 13:06:26,627] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:26.627593+00:00
+[2019-02-06 13:06:26,634] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.345 seconds
+[2019-02-06 13:06:27,723] {jobs.py:386} INFO - Started process (PID=6746) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:27,727] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:27,729] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:27,730] {logging_mixin.py:95} INFO - [2019-02-06 13:06:27,729] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:27,970] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:27,991] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:27,995] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:27,996] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:27,997] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:27,997] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:27,997] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:27,998] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:27,998] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:27,999] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:28,004] {logging_mixin.py:95} INFO - [2019-02-06 13:06:28,004] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:28,005] {logging_mixin.py:95} INFO - [2019-02-06 13:06:28,005] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:28.005268+00:00
+[2019-02-06 13:06:28,010] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.288 seconds
+[2019-02-06 13:06:29,055] {jobs.py:386} INFO - Started process (PID=6747) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:29,060] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:29,061] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:29,062] {logging_mixin.py:95} INFO - [2019-02-06 13:06:29,062] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:29,317] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:29,339] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:29,343] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:29,344] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:29,344] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:29,344] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:29,345] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:29,345] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:29,345] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:29,346] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:29,352] {logging_mixin.py:95} INFO - [2019-02-06 13:06:29,351] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:29,353] {logging_mixin.py:95} INFO - [2019-02-06 13:06:29,352] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:29.352454+00:00
+[2019-02-06 13:06:29,357] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.302 seconds
+[2019-02-06 13:06:30,538] {jobs.py:386} INFO - Started process (PID=6748) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:30,542] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:30,543] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:30,545] {logging_mixin.py:95} INFO - [2019-02-06 13:06:30,544] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:30,726] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:30,747] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:30,752] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:30,753] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:30,753] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:30,754] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:30,754] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:30,754] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:30,755] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:30,755] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:30,761] {logging_mixin.py:95} INFO - [2019-02-06 13:06:30,761] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:30,763] {logging_mixin.py:95} INFO - [2019-02-06 13:06:30,762] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:30.762369+00:00
+[2019-02-06 13:06:30,768] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.230 seconds
+[2019-02-06 13:06:31,885] {jobs.py:386} INFO - Started process (PID=6749) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:31,890] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:31,892] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:31,893] {logging_mixin.py:95} INFO - [2019-02-06 13:06:31,893] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:32,125] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:32,145] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:32,150] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:32,151] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:32,152] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:32,152] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:32,152] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:32,153] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:32,153] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:32,154] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:32,160] {logging_mixin.py:95} INFO - [2019-02-06 13:06:32,160] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:32,161] {logging_mixin.py:95} INFO - [2019-02-06 13:06:32,161] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:32.161057+00:00
+[2019-02-06 13:06:32,167] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.282 seconds
+[2019-02-06 13:06:33,221] {jobs.py:386} INFO - Started process (PID=6750) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:33,226] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:33,227] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:33,229] {logging_mixin.py:95} INFO - [2019-02-06 13:06:33,228] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:33,422] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:33,442] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:33,447] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:33,448] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:33,448] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:33,448] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:33,449] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:33,449] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:33,449] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:33,450] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:33,456] {logging_mixin.py:95} INFO - [2019-02-06 13:06:33,456] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:33,457] {logging_mixin.py:95} INFO - [2019-02-06 13:06:33,456] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:33.456838+00:00
+[2019-02-06 13:06:33,462] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.241 seconds
+[2019-02-06 13:06:34,551] {jobs.py:386} INFO - Started process (PID=6751) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:34,556] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:34,558] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:34,559] {logging_mixin.py:95} INFO - [2019-02-06 13:06:34,558] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:34,767] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:34,791] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:34,797] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:34,798] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:34,798] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:34,798] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:34,799] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:34,799] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:34,799] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:34,800] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:34,807] {logging_mixin.py:95} INFO - [2019-02-06 13:06:34,806] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:34,808] {logging_mixin.py:95} INFO - [2019-02-06 13:06:34,807] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:34.807808+00:00
+[2019-02-06 13:06:34,814] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.263 seconds
+[2019-02-06 13:06:35,892] {jobs.py:386} INFO - Started process (PID=6752) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:35,899] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:35,900] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:35,901] {logging_mixin.py:95} INFO - [2019-02-06 13:06:35,901] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:36,171] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:36,197] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:36,202] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:36,203] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:36,203] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:36,204] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:36,205] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:36,205] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:36,206] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:36,207] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:36,215] {logging_mixin.py:95} INFO - [2019-02-06 13:06:36,215] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:36,216] {logging_mixin.py:95} INFO - [2019-02-06 13:06:36,215] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:36.215862+00:00
+[2019-02-06 13:06:36,225] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.332 seconds
+[2019-02-06 13:06:37,329] {jobs.py:386} INFO - Started process (PID=6753) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:37,333] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:37,334] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:37,335] {logging_mixin.py:95} INFO - [2019-02-06 13:06:37,335] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:37,594] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:37,619] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:37,624] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:37,624] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:37,625] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:37,625] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:37,626] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:37,626] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:37,626] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:37,627] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:37,635] {logging_mixin.py:95} INFO - [2019-02-06 13:06:37,635] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:37,636] {logging_mixin.py:95} INFO - [2019-02-06 13:06:37,636] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:37.636314+00:00
+[2019-02-06 13:06:37,642] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.313 seconds
+[2019-02-06 13:06:38,764] {jobs.py:386} INFO - Started process (PID=6754) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:38,768] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:38,770] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:38,770] {logging_mixin.py:95} INFO - [2019-02-06 13:06:38,770] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:38,954] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:38,974] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:38,978] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:38,979] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:38,979] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:38,980] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:38,980] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:38,980] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:38,981] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:38,981] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:38,987] {logging_mixin.py:95} INFO - [2019-02-06 13:06:38,987] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:38,988] {logging_mixin.py:95} INFO - [2019-02-06 13:06:38,988] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:38.988058+00:00
+[2019-02-06 13:06:38,993] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.229 seconds
+[2019-02-06 13:06:40,102] {jobs.py:386} INFO - Started process (PID=6755) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:40,107] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:40,109] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:40,110] {logging_mixin.py:95} INFO - [2019-02-06 13:06:40,110] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:40,351] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:40,370] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:40,374] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:40,375] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:40,376] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:40,376] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:40,376] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:40,377] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:40,377] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:40,378] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:40,384] {logging_mixin.py:95} INFO - [2019-02-06 13:06:40,384] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:40,385] {logging_mixin.py:95} INFO - [2019-02-06 13:06:40,385] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:40.385054+00:00
+[2019-02-06 13:06:40,390] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.288 seconds
+[2019-02-06 13:06:41,449] {jobs.py:386} INFO - Started process (PID=6756) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:41,453] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:41,456] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:41,457] {logging_mixin.py:95} INFO - [2019-02-06 13:06:41,456] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:41,641] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:41,660] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:41,665] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:41,665] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:41,666] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:41,666] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:41,666] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:41,667] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:41,667] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:41,668] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:41,674] {logging_mixin.py:95} INFO - [2019-02-06 13:06:41,673] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:41,675] {logging_mixin.py:95} INFO - [2019-02-06 13:06:41,674] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:41.674530+00:00
+[2019-02-06 13:06:41,680] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.231 seconds
+[2019-02-06 13:06:42,803] {jobs.py:386} INFO - Started process (PID=6757) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:42,808] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:42,809] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:42,810] {logging_mixin.py:95} INFO - [2019-02-06 13:06:42,810] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:42,991] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:43,010] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:43,015] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:43,016] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:43,016] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:43,017] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:43,017] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:43,017] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:43,018] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:43,019] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:43,024] {logging_mixin.py:95} INFO - [2019-02-06 13:06:43,024] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:43,025] {logging_mixin.py:95} INFO - [2019-02-06 13:06:43,025] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:43.025263+00:00
+[2019-02-06 13:06:43,030] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.227 seconds
+[2019-02-06 13:06:44,145] {jobs.py:386} INFO - Started process (PID=6758) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:44,149] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:44,151] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:44,152] {logging_mixin.py:95} INFO - [2019-02-06 13:06:44,151] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:44,328] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:44,347] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:44,352] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:44,353] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:44,353] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:44,354] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:44,354] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:44,354] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:44,355] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:44,355] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:44,362] {logging_mixin.py:95} INFO - [2019-02-06 13:06:44,361] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:44,363] {logging_mixin.py:95} INFO - [2019-02-06 13:06:44,362] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:44.362457+00:00
+[2019-02-06 13:06:44,368] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.223 seconds
+[2019-02-06 13:06:45,491] {jobs.py:386} INFO - Started process (PID=6759) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:45,494] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:45,496] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:45,497] {logging_mixin.py:95} INFO - [2019-02-06 13:06:45,496] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:45,681] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:45,702] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:45,708] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:45,709] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:45,709] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:45,710] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:45,710] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:45,710] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:45,711] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:45,712] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:45,719] {logging_mixin.py:95} INFO - [2019-02-06 13:06:45,719] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:45,720] {logging_mixin.py:95} INFO - [2019-02-06 13:06:45,720] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:45.720182+00:00
+[2019-02-06 13:06:45,727] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.237 seconds
+[2019-02-06 13:06:46,833] {jobs.py:386} INFO - Started process (PID=6760) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:46,838] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:46,839] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:46,840] {logging_mixin.py:95} INFO - [2019-02-06 13:06:46,840] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:47,037] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:47,058] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:47,063] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:47,064] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:47,065] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:47,065] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:47,065] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:47,066] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:47,066] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:47,067] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:47,074] {logging_mixin.py:95} INFO - [2019-02-06 13:06:47,074] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:47,075] {logging_mixin.py:95} INFO - [2019-02-06 13:06:47,075] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:47.075265+00:00
+[2019-02-06 13:06:47,081] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.247 seconds
+[2019-02-06 13:06:48,164] {jobs.py:386} INFO - Started process (PID=6761) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:48,169] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:48,171] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:48,174] {logging_mixin.py:95} INFO - [2019-02-06 13:06:48,171] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:48,459] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:48,490] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:48,497] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:48,498] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:48,498] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:48,499] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:48,499] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:48,500] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:48,501] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:48,502] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:48,511] {logging_mixin.py:95} INFO - [2019-02-06 13:06:48,511] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:48,513] {logging_mixin.py:95} INFO - [2019-02-06 13:06:48,512] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:48.512138+00:00
+[2019-02-06 13:06:48,522] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.358 seconds
+[2019-02-06 13:06:49,604] {jobs.py:386} INFO - Started process (PID=6763) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:49,608] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:49,609] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:49,610] {logging_mixin.py:95} INFO - [2019-02-06 13:06:49,610] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:49,779] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:49,795] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:49,798] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:49,799] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:49,799] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:49,800] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:49,800] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:49,800] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:49,801] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:49,801] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:49,806] {logging_mixin.py:95} INFO - [2019-02-06 13:06:49,806] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:49,807] {logging_mixin.py:95} INFO - [2019-02-06 13:06:49,806] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:49.806802+00:00
+[2019-02-06 13:06:49,811] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.207 seconds
+[2019-02-06 13:06:50,934] {jobs.py:386} INFO - Started process (PID=6765) to work on /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:50,939] {jobs.py:583} ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2019-02-06 13:06:50,940] {jobs.py:1796} INFO - Processing file /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py for tasks to queue
+[2019-02-06 13:06:50,941] {logging_mixin.py:95} INFO - [2019-02-06 13:06:50,941] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:51,132] {jobs.py:1808} INFO - DAG(s) dict_keys(['ricopili_serial']) retrieved from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 13:06:51,149] {jobs.py:1424} INFO - Processing ricopili_serial
+[2019-02-06 13:06:51,154] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-01 00:00:00+00:00: backfill_2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:51,155] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-02 00:00:00+00:00: backfill_2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:51,156] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-03 00:00:00+00:00: backfill_2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:51,156] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-04 00:00:00+00:00: backfill_2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:51,156] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-05 00:00:00+00:00: backfill_2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:51,157] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-06 00:00:00+00:00: backfill_2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:51,157] {jobs.py:925} INFO - Examining DAG run <DagRun ricopili_serial @ 2015-06-07 00:00:00+00:00: backfill_2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-06 13:06:51,158] {jobs.py:615} INFO - Skipping SLA check for <DAG: ricopili_serial> because no tasks in DAG have SLAs
+[2019-02-06 13:06:51,166] {logging_mixin.py:95} INFO - [2019-02-06 13:06:51,165] {models.py:456} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-02-06 13:06:51,168] {logging_mixin.py:95} INFO - [2019-02-06 13:06:51,167] {models.py:460} INFO - Failing jobs without heartbeat after 2019-02-06 12:01:51.167157+00:00
+[2019-02-06 13:06:51,174] {jobs.py:393} INFO - Processing /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py took 0.240 seconds

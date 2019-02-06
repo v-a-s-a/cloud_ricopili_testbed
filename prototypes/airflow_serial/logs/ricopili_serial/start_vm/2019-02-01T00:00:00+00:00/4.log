@@ -1,0 +1,52 @@
+[2019-02-06 12:01:26,458] {models.py:1361} INFO - Dependencies all met for <TaskInstance: ricopili_serial.start_vm 2019-02-01T00:00:00+00:00 [queued]>
+[2019-02-06 12:01:26,460] {models.py:1361} INFO - Dependencies all met for <TaskInstance: ricopili_serial.start_vm 2019-02-01T00:00:00+00:00 [queued]>
+[2019-02-06 12:01:26,461] {models.py:1573} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 4 of 4
+--------------------------------------------------------------------------------
+
+[2019-02-06 12:01:26,468] {models.py:1595} INFO - Executing <Task(GceInstanceStartOperator): start_vm> on 2019-02-01T00:00:00+00:00
+[2019-02-06 12:01:26,468] {base_task_runner.py:118} INFO - Running: ['bash', '-c', 'airflow run ricopili_serial start_vm 2019-02-01T00:00:00+00:00 --job_id 36 --raw -sd DAGS_FOLDER/airflow_serial.py --cfg_path /var/folders/7d/56pc9qp912l0kjvwnn2ds4sh0000gn/T/tmpduq_tpm7']
+[2019-02-06 12:01:27,206] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm [2019-02-06 12:01:27,205] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-02-06 12:01:27,358] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm [2019-02-06 12:01:27,358] {models.py:271} INFO - Filling up the DagBag from /Users/vasa/Projects/ripkelab/cloud_ricopili/prototypes/airflow_serial/dags/airflow_serial.py
+[2019-02-06 12:01:27,529] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm [2019-02-06 12:01:27,529] {cli.py:484} INFO - Running <TaskInstance: ricopili_serial.start_vm 2019-02-01T00:00:00+00:00 [running]> on host Vassilys-MacBook-Pro.local
+[2019-02-06 12:01:27,545] {logging_mixin.py:95} INFO - [2019-02-06 12:01:27,545] {gcp_api_base_hook.py:84} INFO - Getting connection using `google.auth.default()` since no key file is defined for hook.
+[2019-02-06 12:01:27,546] {logging_mixin.py:95} INFO - [2019-02-06 12:01:27,546] {discovery.py:272} INFO - URL being requested: GET https://www.googleapis.com/discovery/v1/apis/compute/v1/rest
+[2019-02-06 12:01:27,965] {logging_mixin.py:95} INFO - [2019-02-06 12:01:27,965] {discovery.py:873} INFO - URL being requested: POST https://www.googleapis.com/compute/v1/projects/ripkelab2019/zones/us-east1-b/instances/airflow-serial-test/start?alt=json
+[2019-02-06 12:01:28,255] {models.py:1760} ERROR - <HttpError 404 when requesting https://www.googleapis.com/compute/v1/projects/ripkelab2019/zones/us-east1-b/instances/airflow-serial-test/start?alt=json returned "The resource 'projects/ripkelab2019/zones/us-east1-b/instances/airflow-serial-test' was not found">
+Traceback (most recent call last):
+  File "/Users/vasa/anaconda3/envs/ricopili_airflow/lib/python3.6/site-packages/airflow/models.py", line 1659, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/vasa/anaconda3/envs/ricopili_airflow/lib/python3.6/site-packages/airflow/contrib/operators/gcp_compute_operator.py", line 93, in execute
+    return self._hook.start_instance(self.project_id, self.zone, self.resource_id)
+  File "/Users/vasa/anaconda3/envs/ricopili_airflow/lib/python3.6/site-packages/airflow/contrib/hooks/gcp_compute_hook.py", line 85, in start_instance
+    ).execute(num_retries=NUM_RETRIES)
+  File "/Users/vasa/anaconda3/envs/ricopili_airflow/lib/python3.6/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/vasa/anaconda3/envs/ricopili_airflow/lib/python3.6/site-packages/googleapiclient/http.py", line 851, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 404 when requesting https://www.googleapis.com/compute/v1/projects/ripkelab2019/zones/us-east1-b/instances/airflow-serial-test/start?alt=json returned "The resource 'projects/ripkelab2019/zones/us-east1-b/instances/airflow-serial-test' was not found">
+[2019-02-06 12:01:28,263] {models.py:1789} INFO - All retries failed; marking task as FAILED
+[2019-02-06 12:01:28,279] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm Traceback (most recent call last):
+[2019-02-06 12:01:28,279] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm   File "/Users/vasa/anaconda3/envs/ricopili_airflow/bin/airflow", line 32, in <module>
+[2019-02-06 12:01:28,280] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm     args.func(args)
+[2019-02-06 12:01:28,280] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm   File "/Users/vasa/anaconda3/envs/ricopili_airflow/lib/python3.6/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2019-02-06 12:01:28,280] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm     return f(*args, **kwargs)
+[2019-02-06 12:01:28,280] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm   File "/Users/vasa/anaconda3/envs/ricopili_airflow/lib/python3.6/site-packages/airflow/bin/cli.py", line 490, in run
+[2019-02-06 12:01:28,280] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm     _run(args, dag, ti)
+[2019-02-06 12:01:28,280] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm   File "/Users/vasa/anaconda3/envs/ricopili_airflow/lib/python3.6/site-packages/airflow/bin/cli.py", line 406, in _run
+[2019-02-06 12:01:28,280] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm     pool=args.pool,
+[2019-02-06 12:01:28,280] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm   File "/Users/vasa/anaconda3/envs/ricopili_airflow/lib/python3.6/site-packages/airflow/utils/db.py", line 74, in wrapper
+[2019-02-06 12:01:28,280] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm     return func(*args, **kwargs)
+[2019-02-06 12:01:28,280] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm   File "/Users/vasa/anaconda3/envs/ricopili_airflow/lib/python3.6/site-packages/airflow/models.py", line 1659, in _run_raw_task
+[2019-02-06 12:01:28,280] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm     result = task_copy.execute(context=context)
+[2019-02-06 12:01:28,281] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm   File "/Users/vasa/anaconda3/envs/ricopili_airflow/lib/python3.6/site-packages/airflow/contrib/operators/gcp_compute_operator.py", line 93, in execute
+[2019-02-06 12:01:28,281] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm     return self._hook.start_instance(self.project_id, self.zone, self.resource_id)
+[2019-02-06 12:01:28,281] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm   File "/Users/vasa/anaconda3/envs/ricopili_airflow/lib/python3.6/site-packages/airflow/contrib/hooks/gcp_compute_hook.py", line 85, in start_instance
+[2019-02-06 12:01:28,281] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm     ).execute(num_retries=NUM_RETRIES)
+[2019-02-06 12:01:28,281] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm   File "/Users/vasa/anaconda3/envs/ricopili_airflow/lib/python3.6/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+[2019-02-06 12:01:28,281] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm     return wrapped(*args, **kwargs)
+[2019-02-06 12:01:28,281] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm   File "/Users/vasa/anaconda3/envs/ricopili_airflow/lib/python3.6/site-packages/googleapiclient/http.py", line 851, in execute
+[2019-02-06 12:01:28,281] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm     raise HttpError(resp, content, uri=self.uri)
+[2019-02-06 12:01:28,281] {base_task_runner.py:101} INFO - Job 36: Subtask start_vm googleapiclient.errors.HttpError: <HttpError 404 when requesting https://www.googleapis.com/compute/v1/projects/ripkelab2019/zones/us-east1-b/instances/airflow-serial-test/start?alt=json returned "The resource 'projects/ripkelab2019/zones/us-east1-b/instances/airflow-serial-test' was not found">
+[2019-02-06 12:01:31,459] {logging_mixin.py:95} INFO - [2019-02-06 12:01:31,458] {jobs.py:2627} INFO - Task exited with return code 1
