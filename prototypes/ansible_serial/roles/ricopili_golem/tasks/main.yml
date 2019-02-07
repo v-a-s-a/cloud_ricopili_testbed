@@ -1,0 +1,5 @@
+---
+
+- name: get some preimp_dir help
+  shell: preimp_dir --help
+

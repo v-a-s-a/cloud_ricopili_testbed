@@ -1,0 +1,54 @@
+---
+# https://docs.ansible.com/ansible/latest/modules/gce_module.html
+- name: GCE Running Ricopili Serial
+  hosts: localhost
+
+  vars:
+    machine_type: n1-standard-1
+    image: ricopili-serial-21-01-2019
+    authkind: serviceaccount
+    zone: us-central1-a
+    service_account_email: ricopili-ansible@ripkelab2019.iam.gserviceaccount.com
+    credentials_file: /Users/vasa/.gcloud/keys/ricopili-ansible.json
+    project_id: ripkelab2019
+
+  tasks:
+
+    - name: create ricopili-golem
+      gcp_compute_instance:
+        state: present
+        name: test05
+        zone: "{{ zone }}"
+        machine_type: "{{ machine_type }}"
+        disks:
+          - auto_delete: true
+            boot: true
+            source: "{{ image }}"
+        project: "{{ project_id}}"
+        service_account_file: "{{ credentials_file }}"
+      register: instance
+
+    - name: save host data
+      add_host:
+        hostname: "{{ instance.address }}"
+
+    - name: wait for SSH for instances
+      wait_for:
+        delay: 1
+        host: "{{ instance.address }}"
+        port: 22
+        state: started
+        timeout: 30
+
+    - name: work work work
+      # hosts: gce_instances_ips
+      delegate_to:  "{{ groups.gce_instances_ips[0] }}"
+      connection: ssh
+      command: date
+      tags:
+        - work
+
+    - name: delete ricopili-golem
+      gcp_compute_instance:
+        state: terminated
+        name: test05

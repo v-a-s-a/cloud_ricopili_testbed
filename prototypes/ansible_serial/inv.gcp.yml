@@ -1,0 +1,6 @@
+plugin: gcp_compute
+projects:
+  - ripkelab2019
+filters:
+auth_kind: serviceaccount
+service_account_file: /Users/vasa/.gcloud/keys/ricopili-ansible.json
