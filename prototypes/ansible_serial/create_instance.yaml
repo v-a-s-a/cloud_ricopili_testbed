@@ -2,53 +2,58 @@
 # https://docs.ansible.com/ansible/latest/modules/gce_module.html
 - name: GCE Running Ricopili Serial
   hosts: localhost
-
   vars:
     machine_type: n1-standard-1
     image: ricopili-serial-21-01-2019
-    authkind: serviceaccount
     zone: us-central1-a
     service_account_email: ricopili-ansible@ripkelab2019.iam.gserviceaccount.com
     credentials_file: /Users/vasa/.gcloud/keys/ricopili-ansible.json
     project_id: ripkelab2019
-
   tasks:
-
     - name: create ricopili-golem
-      gcp_compute_instance:
-        state: present
-        name: test05
+      gce:
+        instance_names: test05
         zone: "{{ zone }}"
         machine_type: "{{ machine_type }}"
-        disks:
-          - auto_delete: true
-            boot: true
-            source: "{{ image }}"
-        project: "{{ project_id}}"
-        service_account_file: "{{ credentials_file }}"
-      register: instance
+        image: "{{ image }}"
+        state: present
+        service_account_email: "{{ service_account_email }}"
+        credentials_file: "{{ credentials_file }}"
+        project_id: "{{ project_id }}"
+        metadata : '{ "startup-script" : "apt-get update" }'
+      register: gce
 
     - name: save host data
       add_host:
-        hostname: "{{ instance.address }}"
+        hostname: "{{ item.public_ip }}"
+        groupname: gce_instances_ips
+      with_items: "{{ gce.instance_data }}"
 
     - name: wait for SSH for instances
       wait_for:
         delay: 1
-        host: "{{ instance.address }}"
+        host: "{{ item.public_ip }}"
         port: 22
         state: started
         timeout: 30
+      with_items: "{{ gce.instance_data }}"
 
     - name: work work work
-      # hosts: gce_instances_ips
       delegate_to:  "{{ groups.gce_instances_ips[0] }}"
-      connection: ssh
-      command: date
+      remote_user: vassily
+      become_method: su
+      become: yes
+      shell: date
       tags:
         - work
 
     - name: delete ricopili-golem
-      gcp_compute_instance:
-        state: terminated
-        name: test05
+      gce:
+        service_account_email: "{{ service_account_email }}"
+        credentials_file: "{{ credentials_file }}"
+        project_id: "{{ project_id }}"
+        instance_names: test05
+        zone: "{{ zone }}"
+        state: absent
+      tags:
+        - delete
