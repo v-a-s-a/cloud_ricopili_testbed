@@ -52,8 +52,6 @@ def create_instance(compute, project, zone, name):
                 {'type': 'ONE_TO_ONE_NAT', 'name': 'External NAT'}
             ]
         }],
-
-        # Allow the instance to access cloud storage and logging.
         'serviceAccounts': [{
             'email': 'ricopili-gcp-api@ripkelab2019.iam.gserviceaccount.com',
             'scopes': [
