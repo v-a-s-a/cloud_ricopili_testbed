@@ -10,6 +10,9 @@ The correct way to do this would be something like creating a service account wi
 
 Also, checkout: https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/compute/auth  
 
+Useful resource about making requests and handling responses from the API:
+https://cloud.google.com/compute/docs/api/how-tos/api-requests-responses
+
 
 ## Roadmap: 12.02.2019
 

@@ -10,6 +10,12 @@ For more information, see the README.md under /compute.
 import argparse
 import os
 import time
+import ipdb
+import json
+
+import paramiko
+from scp import SCPClient
+import stringio
 
 import googleapiclient.discovery
 from six.moves import input
@@ -71,6 +77,8 @@ def create_instance(compute, project, zone, name):
 # [END create_instance]
 
 
+
+
 # [START delete_instance]
 def delete_instance(compute, project, zone, name):
     return compute.instances().delete(
@@ -99,6 +107,26 @@ def wait_for_operation(compute, project, zone, operation):
 # [END wait_for_operation]
 
 
+def scp_file(fpath, credentials_fpath, instance_ip):
+
+    # create an ssh client and connect to instance
+    client = paramiko.SSHClient()
+    credentials = json.load(credentials_fpath)
+    rsa_key = paramiko.RSAKey.from_private_key(io.StringIO(credentials['private_key']))
+    client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    client.connect(instance_ip, username=credentials['client_id'], pkey=rsa_key)
+
+
+    def createSSHClient(server, port, user, password):
+        client.load_system_host_keys()
+        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+        client.connect(server, port, user, password)
+        return client
+
+    ssh = createSSHClient(server, port, user, password)
+    scp = SCPClient(ssh.get_transport())
+
+
 # [START run]
 def main(project, zone, instance_name, wait=True):
     # this is where auth happens. here, using application default credentials
@@ -115,9 +143,17 @@ def main(project, zone, instance_name, wait=True):
     for instance in instances:
         print(' - ' + instance['name'])
 
+    print('Copying file to instance')
+
+    ipdb.set_trace()
+
+    external_ip = instances[0]['networkInterfaces'][0]['accessConfigs'][0]['natIP']
+
+
     if wait:
         print('Press enter to move on with your life...')
         input()
+
 
     print('Deleting instance.')
 
@@ -141,6 +177,9 @@ if __name__ == '__main__':
         '--name',
         default='api-test01',
         help='New instance name.')
+    parser.add_argument(
+        '--credentials',
+        help='File path of service account credentials.')
 
     args = parser.parse_args()
 
