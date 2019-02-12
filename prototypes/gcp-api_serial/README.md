@@ -11,4 +11,16 @@ The correct way to do this would be something like creating a service account wi
 Also, checkout: https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/compute/auth  
 
 
+## Roadmap: 12.02.2019
+
+A few problems we need to solve to get our minimum prototype running:
+
+  1. add scp to instance
+    - returning instance ip
+    - connecting with proper credentials
+  2. add docker to instance
+    - running ricopili_docker
+  3. add ssh to instance
+    - running a remote command
+
 
