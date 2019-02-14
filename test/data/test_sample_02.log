@@ -1,0 +1,32 @@
+PLINK v2.00a1LM 64-bit Intel (11 Feb 2018)
+Options in effect:
+  --bfile /psych/genetics_data/sawasthi/hapgen/dir1/hapgen_sample1-hwe-miss-Fheterr-snpsmids-flip-MSexErr
+  --extract snps.txt
+  --keep samples.txt
+  --make-bed
+  --memory 640
+  --out test_sample_02
+
+Hostname: uger-c003.broadinstitute.org
+Working directory: /psych/ripke/vasa/cloud_ricopili/test_data
+Start time: Thu Feb 14 10:01:00 2019
+
+Random number seed: 1550156460
+129004 MB RAM detected; reserving 640 MB for main workspace.
+Using up to 16 threads (change this with --threads).
+2100 samples (768 females, 1332 males; 2100 founders) loaded from
+/psych/genetics_data/sawasthi/hapgen/dir1/hapgen_sample1-hwe-miss-Fheterr-snpsmids-flip-MSexErr.fam.
+547764 variants loaded from
+/psych/genetics_data/sawasthi/hapgen/dir1/hapgen_sample1-hwe-miss-Fheterr-snpsmids-flip-MSexErr.bim.
+1 binary phenotype loaded (985 cases, 1115 controls).
+--extract: 100 variants remaining.
+--keep: 1000 samples remaining.
+1000 samples (0 females, 1000 males; 1000 founders) remaining after main
+filters.
+441 cases and 559 controls remaining after main filters.
+100 variants remaining after main filters.
+Writing test_sample_02.bed ... done.
+Writing test_sample_02.bim ... done.
+Writing test_sample_02.fam ... done.
+
+End time: Thu Feb 14 10:01:00 2019
